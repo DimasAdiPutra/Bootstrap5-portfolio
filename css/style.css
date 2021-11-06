@@ -1,0 +1,59 @@
+body {
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #60a8f6;
+}
+
+#home,
+#portfolio,
+#contact {
+  background-color: #e7f4fb;
+}
+
+.display-4 {
+  font-weight: 600;
+}
+
+.lead {
+  font-weight: 600;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: 0.1s;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+}
+
+.title {
+  font-weight: 700;
+  margin: auto;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 3px;
+  border-radius: 80px;
+  background-color: #000;
+}
+
+#about,
+#socialMedia,
+#footer {
+  background-color: #9fcbf9;
+}
+
+footer {
+  height: 40px;
+}
